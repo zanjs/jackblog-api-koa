@@ -108,7 +108,8 @@ function initData() {
 						});
 					});
 				}
+					yield next;
 			}
-			yield next;
+		
 	}
 	module.exports = initData
